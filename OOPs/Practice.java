@@ -1,3 +1,5 @@
+package OOPs;
+
 class car{
     String brand;
     int price;
