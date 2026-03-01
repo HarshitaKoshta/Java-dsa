@@ -18,10 +18,13 @@ public class Reward {
         int totalCups = a1 + a2 + a3;
         int totalMedal = b1 + b2 + b3;
 
-        int
-        
-
-
+        if (totalCups > totalMedal) {
+            System.out.println("Cups");
+        } else if (totalMedal > totalCups) {
+            System.out.println("Medals");
+        } else {
+            System.out.println("Equal");
+        }
 
 
     }
