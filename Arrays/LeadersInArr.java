@@ -4,7 +4,7 @@ import java.util.*;
 public class LeadersInArr {
     public static void main(String[] args) {
 
-        int[] arr = {16, 17, 4, 3, 5, 2};
+        int[] arr = {16,17,4,3,5,2};
         int n = arr.length;
 
         ArrayList<Integer> leaders = new ArrayList<>();
