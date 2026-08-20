@@ -9,8 +9,7 @@ class Solution {
             while (set.contains(c)) {
                 set.remove(s.charAt(left));
                 left++;
-            }
-            
+            }          
             set.add(c);
             maxL = Math.max(maxL, right - left + 1);
         }
